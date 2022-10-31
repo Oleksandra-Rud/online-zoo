@@ -564,7 +564,7 @@ h3 {
   background: url(../../assets/images/leav_foto.png);
   background-size: cover;
   position: absolute;
-  top: 4260px;
+  top: 4258px;
   right: 0;
   width: 247px;
   height: 295px;
@@ -665,11 +665,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 140%;
 /* or 22px */
-
-
 color: #FFFFFF;
-
-
 }
 
 .email {padding-left:10px;}
