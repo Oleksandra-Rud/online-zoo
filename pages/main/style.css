@@ -79,7 +79,7 @@ header .wrapper {
   text-align: center;
   color: #fff;
   position: relative;
-  left: 55%;
+  left: 56%;
   top: -380px;
 }
 .big-text {
@@ -121,7 +121,7 @@ header .wrapper {
   border-radius: 233px;
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   position: relative;
-  left: 52%;
+  left: 53%;
   top: 12px;
 }
 #favorite {
@@ -142,7 +142,7 @@ header .wrapper {
   max-width: 1160px;
   max-height: 403px;
   margin: 0 auto;
-  padding-top: 139px;
+  padding-top: 140px;
   padding-bottom: 80px;
 }
 .text {
@@ -157,7 +157,7 @@ header .wrapper {
   line-height: 120%;
   color: #333b41;
   margin-bottom: 34px;
-  margin-top: 44px;
+  margin-top: 57px;
 }
 
 #first-flower {
@@ -173,7 +173,7 @@ header .wrapper {
   max-width: 1160px;
   max-height: 870px;
   margin: 0 auto;
-  padding-top: 84px;
+  padding-top: 86px;
 }
 .slider-pets-cards {
   display: flex;
