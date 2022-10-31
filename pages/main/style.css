@@ -62,7 +62,7 @@ header .wrapper {
 }
 
 .big-panda {
-  background-image: url(C:/Users/38063/Desktop/rss/ONLINE-ZOO/assets/images/GiantPanda.png);
+  background-image: url(../../assets/images/GiantPanda.png);
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -159,7 +159,7 @@ header .wrapper {
 }
 
 #first-flower {
-  background-image: url(C:/Users/38063/Desktop/rss/ONLINE-ZOO/assets/images/flower1.png);
+  background-image: url(../../assets/images/flower1.png);
   background-size: 200px 605px;
   background-repeat: no-repeat;
   background-position: right;
@@ -252,7 +252,7 @@ h4 {
   left: -7%;
 }
 .button-round-left::before {
-  content: url(C:/Users/38063/Desktop/rss/ONLINE-ZOO/assets/icons/VectorL.png);
+  content: url(../../assets/icons/VectorL.png);
 }
 
 .button-round-right {
@@ -267,7 +267,7 @@ h4 {
 }
 
 .button-round-right::before {
-  content: url(C:/Users/38063/Desktop/rss/ONLINE-ZOO/assets/icons/VectorR.png);
+  content: url(../../assets/icons/VectorR.png);
 }
 
 .button-round-left:hover {
@@ -288,7 +288,7 @@ h4 {
 
 .pets-block::before {
   content: "";
-  background: url(C:/Users/38063/Desktop/rss/ONLINE-ZOO/assets/images/palm_foto.png);
+  background: url(../../assets/images/palm_foto.png);
   position: absolute;
   background-size: cover;
   top: 2149px;
@@ -298,7 +298,7 @@ h4 {
 }
 .pets-block::after {
   content: "";
-  background: url(C:/Users/38063/Desktop/rss/ONLINE-ZOO/assets/images/strelitzia.png);
+  background: url(../../assets/images/strelitzia.png);
   background-size: cover;
   position: absolute;
   top: 2334px;
@@ -433,7 +433,7 @@ h3 {
 }
 .pink-box::before {
   content: "";
-  background: url(C:/Users/38063/Desktop/rss/ONLINE-ZOO/assets/images/Vector.png);
+  background: url(../../assets/images/Vector.png);
   position: absolute;
   background-size: cover;
   top: 3160px;
@@ -443,7 +443,7 @@ h3 {
 }
 .pink-box::after {
   content: "";
-  background: url(C:/Users/38063/Desktop/rss/ONLINE-ZOO/assets/images/Vector.png);
+  background: url(../../assets/images/Vector.png);
   background-size: cover;
   position: absolute;
   top: 3160px;
@@ -557,7 +557,7 @@ h3 {
 }
 .testimonials::after {
   content: "";
-  background: url(C:/Users/38063/Desktop/rss/ONLINE-ZOO/assets/images/leav_foto.png);
+  background: url(../../assets/images/leav_foto.png);
   background-size: cover;
   position: absolute;
   top: 4260px;
