@@ -582,7 +582,7 @@ h3 {
 footer {
   font-family: "Roboto", sans-serif;
   color: #fff;
-  background-color: #000000;
+  background-color: #111115;
   text-align: center;
   margin-top: 180px;
   }
@@ -608,6 +608,7 @@ line-height: 140%;
 list-style: none;
 text-align: left;
 padding-left: 0px;
+margin-bottom: 50px;
 color: #fff;
 text-decoration-line: none;}
 
@@ -619,4 +620,81 @@ text-decoration-line: none;}
 font-style: normal;
 font-weight: 400;
 font-size: 24px;
-line-height: 120%;}
+line-height: 120%;
+text-align: left;
+padding-bottom: 14px;}
+
+.footer_navigation {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 250px;
+  padding-right: 150px;
+}
+.footer_navigation ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  padding-top: 40px;
+}
+.footer_navigation a {
+  margin-right: 30px;
+  color: #fff;
+  text-decoration-line: none;
+}
+
+.footer_navigation a:hover {
+  color: #f9804b;
+}
+
+input {width: 228px;
+height: 42px;
+right: 359px;
+top: 83px;
+border-radius: 4px;
+box-sizing: border-box;
+border: #F9804B solid 1px;
+background-color:#111115;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #FFFFFF;
+
+
+}
+
+.email {padding-left:10px;}
+
+
+.submit-button {width: 129px;
+height: 42px;
+background: #F1F3F2;
+/* black_blue */
+border: 1px solid #333B41;
+border-radius: 5px;
+color:#4B9200;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;}
+
+.submit-button:hover {color:#4B9200;
+cursor:pointer;}
+
+.last-part {font-family: 'Roboto';
+font-style: normal;
+font-weight: 100;
+font-size: 16px;
+line-height: 130%;
+/* identical to box height, or 21px */
+color: #FFFFFF;
+font-weight: 300%;}
