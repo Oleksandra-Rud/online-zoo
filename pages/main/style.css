@@ -599,3 +599,24 @@ padding-top: 40px;}
   display: block;
   text-decoration: none;
   padding-bottom: 2px;}
+
+  .social-links{font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+list-style: none;
+text-align: left;
+padding-left: 0px;
+color: #fff;
+text-decoration-line: none;}
+
+.social-links a {
+color: #fff;
+text-decoration-line: none;}
+
+.name-subscribe {font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;}
