@@ -677,14 +677,15 @@ background: #F1F3F2;
 /* black_blue */
 border: 1px solid #333B41;
 border-radius: 5px;
-color:#4B9200;
+color:#000000;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 140%;}
 
 .submit-button:hover {color:#4B9200;
-cursor:pointer;}
+cursor:pointer;
+border: 1px solid #4B9200;}
 
 .last-part {font-family: 'Roboto';
 font-style: normal;
