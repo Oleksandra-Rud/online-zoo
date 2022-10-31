@@ -4,6 +4,7 @@ body {
   font-size: 15px;
 }
 
+#logo-img{margin-top: 5px;}
 h2 {
   font-family: "Roboto";
   font-style: normal;
@@ -36,6 +37,7 @@ header .wrapper {
   justify-content: space-between;
   max-width: 1160px;
   max-height: 80px;
+  height: 80px;
   margin: 0 auto;
 }
 .top-navigation-bar {
@@ -77,7 +79,7 @@ header .wrapper {
   text-align: center;
   color: #fff;
   position: relative;
-  left: 880px;
+  left: 55%;
   top: -380px;
 }
 .big-text {
@@ -119,7 +121,7 @@ header .wrapper {
   border-radius: 233px;
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   position: relative;
-  left: 807px;
+  left: 52%;
   top: 12px;
 }
 #favorite {
