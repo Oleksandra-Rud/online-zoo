@@ -241,11 +241,15 @@ footer .wrapper {
   margin-bottom: 50px;
   color: #fff;
   text-decoration-line: none;
+  vertical-align: top;
 }
 
 .social-links a {
   color: #fff;
   text-decoration-line: none;
+}
+.social-name {
+  vertical-align: top;
 }
 
 .name-subscribe {
