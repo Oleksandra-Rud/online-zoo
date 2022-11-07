@@ -19,7 +19,7 @@ h2 {
 
   margin-top: 5px;
   margin-bottom: 20px;
-  padding-top: 40px;
+  padding-top: 23px;
 }
 p {
   font-family: "Roboto";
@@ -124,7 +124,7 @@ header .wrapper {
 
   padding-bottom: 294px;
   align-items: center;
-  max-height: 1004px;
+  max-height: 1482px;
   margin: 0 auto;
   background: linear-gradient(
       315.75deg,
@@ -329,7 +329,7 @@ color: #333B41;
   content: url(../../assets/icons/Rectangle_12.png);
   position: relative;
   left: 123px;
-  top: 570px;
+  top: 553px;
 
 }
 
@@ -368,7 +368,7 @@ input::-webkit-inner-spin-button {
     margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
 
-.an-amount {padding-top:70px;}
+.an-amount {padding-top:87px;}
 
 .how-often {display: block; margin: 0 auto; text-align:center; padding-top:27px; padding-right: 10px;
   padding-left: 10px; }
@@ -390,18 +390,19 @@ input::-webkit-inner-spin-button {
 .how-often input:checked + label {
   background: #FE9013;
 }
+#another-amount {height: 54px; width: 268px;}
 
 .input-another-amount:after {
    content: '';
   width: 12px;
-  height: 12px;
+  height: 15px;
   display: inline-block;
   background: url(../../assets/icons/dollar.png) 50% no-repeat;
   background-size: contain;
   opacity: 0.6;
   position: relative;
-  left: 58%;
-    bottom: 30px;
+  left: 59%;
+    bottom: 32px;
 }
 
 
@@ -421,7 +422,7 @@ footer {
   color: #fff;
   background-color: #111115;
   text-align: center;
-}
+  }
 footer .wrapper {
   display: flex;
   align-items: center;
