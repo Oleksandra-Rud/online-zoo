@@ -97,6 +97,17 @@ header .wrapper {
   border-radius: 25px;
   cursor: pointer;
 }
+#feed-a-friend {
+  margin: 0 auto;
+  display: block;
+
+  text-decoration: none;
+  text-align: center;
+  max-height: 36px;
+  text-decoration-line: none;
+  vertical-align: middle;
+  padding-top: 18px;
+}
 
 .lovely-zoo-online:active {
   background: #4b9200;
@@ -110,6 +121,8 @@ header .wrapper {
 }
 .peek-and-feed {
   padding-top: 40px;
+
+  padding-bottom: 294px;
   align-items: center;
   max-height: 1004px;
   margin: 0 auto;
@@ -147,8 +160,8 @@ header .wrapper {
   border-radius: 20px;
   max-width: 1160px;
   margin-top: 69px;
+  margin-bottom: 180px;
   margin: 0 auto;
-  height: 835px;
 }
 h5 {
   padding-top: 41px;
@@ -237,6 +250,36 @@ h3 {
   text-align: left;
   margin-top: 40px;
   margin-bottom: 60px;
+}
+
+.share {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+
+  color: #333b41;
+
+  text-align: center;
+  padding-bottom: 61px;
+}
+
+.amaunt-for-panda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.big-4 {
+  font-size: 82px;
+  font-weight: 600;
+}
+.small-text-under {
+  text-align: center;
 }
 
 footer {
