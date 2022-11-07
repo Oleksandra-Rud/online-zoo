@@ -14,10 +14,12 @@ h2 {
   font-weight: 400;
   font-size: 48px;
   line-height: 120%;
-  color: #333b41;
+  text-align: center;
+  color: #fe9013;
+
   margin-top: 5px;
   margin-bottom: 20px;
-  padding-top: 2px;
+  padding-top: 40px;
 }
 p {
   font-family: "Roboto";
@@ -107,7 +109,7 @@ header .wrapper {
   color: #f9804b;
 }
 .peek-and-feed {
-  padding: 69px 0px 100px;
+  padding-top: 40px;
   align-items: center;
   max-height: 1004px;
   margin: 0 auto;
@@ -135,7 +137,11 @@ header .wrapper {
     );
   opacity: 0.9;
 }
-
+.peach-box {
+  max-width: 1160px;
+  margin: 0 auto;
+  text-align: center;
+}
 .pink-box {
   background: rgba(253, 253, 255, 0.52);
   border-radius: 20px;
@@ -159,14 +165,16 @@ h5 {
 
 #pick-big {
   font-family: "Roboto";
+  font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 120%;
   /* identical to box height, or 29px */
+
   color: #333b41;
-  padding-left: 99px;
+  padding-left: 92px;
   margin-bottom: 0px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 #pick-middle {
   font-family: "Roboto";
@@ -201,12 +209,36 @@ h3 {
   font-weight: 400;
   font-size: 36px;
   line-height: 130%;
-  /* identical to box height, or 47px */
-  color: #333b41;
+  color: #ffffff;
+
   text-align: center;
-  margin-top: 62px;
-  margin-bottom: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
+
+.small-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.information {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 130%;
+  color: #fe9013;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
 footer {
   font-family: "Roboto", sans-serif;
   color: #fff;
