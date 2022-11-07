@@ -327,8 +327,8 @@ h3 {
 .pink-box::before {
   content: url(../../assets/icons/Rectangle_12.png);
   position: relative;
-  left: 123px;
-  top: 553px;
+  left: 11%;
+  top: 550px;
 }
 
 .checkmark {
@@ -349,7 +349,13 @@ h3 {
   background: #ffee2e;
   position: relative;
 }
-
+.checkmark:checked {
+  width: 9px;
+  height: 9px;
+  border: 1px solid #fe9013;
+  background: #ffee2e;
+  position: relative;
+}
 .radio {
   display: flex;
   flex-direction: column;
