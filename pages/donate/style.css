@@ -248,7 +248,7 @@ h3 {
   line-height: 130%;
   color: #fe9013;
   text-align: left;
-  margin-top: 40px;
+  margin-top: 44px;
   margin-bottom: 60px;
 }
 
@@ -273,9 +273,11 @@ h3 {
   margin-bottom: 48px;
   text-align: center;
 }
-
+.left-text {
+  padding-right: 100px;
+}
 .big-4 {
-  font-size: 82px;
+  font-size: 72px;
   font-weight: 600;
 }
 .small-text-under {
