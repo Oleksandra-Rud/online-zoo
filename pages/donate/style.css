@@ -390,7 +390,29 @@ input::-webkit-inner-spin-button {
 .how-often input:checked + label {
   background: #FE9013;
 }
+
+.input-another-amount:after {
+   content: '';
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background: url(../../assets/icons/dollar.png) 50% no-repeat;
+  background-size: contain;
+  opacity: 0.6;
+  position: relative;
+  left: 58%;
+    bottom: 30px;
+}
+
+
+
+
 .checkmark2 {margin-right: 30px;}
+
+
+
+
+
 .button-donate {margin-top: 30px;}
 
 
