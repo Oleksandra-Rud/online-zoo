@@ -122,7 +122,7 @@ header .wrapper {
 .peek-and-feed {
   padding-top: 40px;
 
-  padding-bottom: 294px;
+  padding-bottom: 158px;
   align-items: center;
   max-height: 1482px;
   margin: 0 auto;
@@ -289,7 +289,7 @@ h3 {
   left: 35px;
   top: -35px;
 }
-#amount-p {padding-left:96px;}
+#amount-p {padding-left:96px; margin-top:6px;}
 
 
 .black-amount-bar {
@@ -368,7 +368,7 @@ input::-webkit-inner-spin-button {
     margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
 
-.an-amount {padding-top:87px;}
+.an-amount {padding-top:77px;}
 
 .how-often {display: block; margin: 0 auto; text-align:center; padding-top:27px; padding-right: 10px;
   padding-left: 10px; }
