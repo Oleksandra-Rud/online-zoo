@@ -289,6 +289,110 @@ h3 {
   left: 35px;
   top: -35px;
 }
+#amount-p {padding-left:96px;}
+
+
+.black-amount-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #404950;
+    margin-left: 96px;
+  margin-right:92px;
+  max-height: 27px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  }
+.black-amount-bar label {
+   position: relative;
+  left: 0;
+  top: 40px;
+  display: inline-block;
+  background: none;
+font-family: 'Roboto';
+font-weight: 600;
+color: #333B41;
+}
+
+.black-amount-bar input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  content: ''
+
+}
+
+
+
+.pink-box::before {
+  content: url(../../assets/icons/Rectangle_12.png);
+  position: relative;
+  left: 123px;
+  top: 570px;
+
+}
+
+.checkmark {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  height: 10px;
+  width: 10px;
+  background-color: #ffee2e;
+  border-radius: 50%;
+  cursor: pointer;
+  
+}
+
+.checkmark:hover {
+  width: 9px;
+  height: 9px;
+  border: 1px solid #FE9013;
+  background: #ffee2e;
+  position: relative;
+ }
+
+
+.radio {display:flex; flex-direction:column; }
+
+#another-amount {background:none;
+border: #929699 solid 1px;
+display:block;
+margin:0 auto;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.an-amount {padding-top:70px;}
+
+.how-often {display: block; margin: 0 auto; text-align:center; padding-top:27px; padding-right: 10px;
+  padding-left: 10px; }
+
+
+.how-often input { 
+  display: none; margin-right: 5px;
+}
+.how-often label {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  border: 1px solid #FE9013;
+  display: inline-block;
+  margin-right: 5px;
+  
+ 
+}
+.how-often input:checked + label {
+  background: #FE9013;
+}
+.checkmark2 {margin-right: 30px;}
+.button-donate {margin-top: 30px;}
+
 
 footer {
   font-family: "Roboto", sans-serif;
