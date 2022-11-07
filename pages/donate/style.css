@@ -289,28 +289,30 @@ h3 {
   left: 35px;
   top: -35px;
 }
-#amount-p {padding-left:96px; margin-top:6px;}
-
+#amount-p {
+  padding-left: 96px;
+  margin-top: 6px;
+}
 
 .black-amount-bar {
   display: flex;
   justify-content: space-between;
   background-color: #404950;
-    margin-left: 96px;
-  margin-right:92px;
+  margin-left: 96px;
+  margin-right: 92px;
   max-height: 27px;
   padding-top: 0px;
   padding-bottom: 0px;
-  }
+}
 .black-amount-bar label {
-   position: relative;
+  position: relative;
   left: 0;
   top: 40px;
   display: inline-block;
   background: none;
-font-family: 'Roboto';
-font-weight: 600;
-color: #333B41;
+  font-family: "Roboto";
+  font-weight: 600;
+  color: #333b41;
 }
 
 .black-amount-bar input {
@@ -319,18 +321,14 @@ color: #333B41;
   cursor: pointer;
   height: 0;
   width: 0;
-  content: ''
-
+  content: "";
 }
-
-
 
 .pink-box::before {
   content: url(../../assets/icons/Rectangle_12.png);
   position: relative;
   left: 123px;
   top: 553px;
-
 }
 
 .checkmark {
@@ -342,58 +340,73 @@ color: #333B41;
   background-color: #ffee2e;
   border-radius: 50%;
   cursor: pointer;
-  
 }
 
 .checkmark:hover {
   width: 9px;
   height: 9px;
-  border: 1px solid #FE9013;
+  border: 1px solid #fe9013;
   background: #ffee2e;
   position: relative;
- }
+}
 
+.radio {
+  display: flex;
+  flex-direction: column;
+}
 
-.radio {display:flex; flex-direction:column; }
-
-#another-amount {background:none;
-border: #929699 solid 1px;
-display:block;
-margin:0 auto;
+#another-amount {
+  background: none;
+  border: #929699 solid 1px;
+  display: block;
+  margin: 0 auto;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    /* display: none; <- Crashes Chrome on hover */
-    -webkit-appearance: none;
-    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
 
-.an-amount {padding-top:77px;}
+.an-amount {
+  padding-top: 77px;
+}
 
-.how-often {display: block; margin: 0 auto; text-align:center; padding-top:27px; padding-right: 10px;
-  padding-left: 10px; }
+.how-often {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 27px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
 
-
-.how-often input { 
-  display: none; margin-right: 5px;
+.how-often input {
+  display: none;
+  margin-right: 5px;
 }
 .how-often label {
   width: 16px;
   height: 16px;
   border-radius: 8px;
-  border: 1px solid #FE9013;
+  border: 1px solid #fe9013;
   display: inline-block;
   margin-right: 5px;
-  
- 
+}
+
+.how-often label:hover {
+  cursor: pointer;
 }
 .how-often input:checked + label {
-  background: #FE9013;
+  background: #fe9013;
 }
-#another-amount {height: 54px; width: 268px;}
+#another-amount {
+  height: 54px;
+  width: 268px;
+}
 
 .input-another-amount:after {
-   content: '';
+  content: "";
   width: 12px;
   height: 15px;
   display: inline-block;
@@ -402,27 +415,23 @@ input::-webkit-inner-spin-button {
   opacity: 0.6;
   position: relative;
   left: 59%;
-    bottom: 32px;
+  bottom: 32px;
 }
 
+.checkmark2 {
+  margin-right: 30px;
+}
 
-
-
-.checkmark2 {margin-right: 30px;}
-
-
-
-
-
-.button-donate {margin-top: 30px;}
-
+.button-donate {
+  margin-top: 30px;
+}
 
 footer {
   font-family: "Roboto", sans-serif;
   color: #fff;
   background-color: #111115;
   text-align: center;
-  }
+}
 footer .wrapper {
   display: flex;
   align-items: center;
