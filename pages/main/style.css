@@ -772,7 +772,7 @@ input {
   }
   header .wrapper {
     padding-left: 28px;
-    padding-right: ;
+    padding-right: 18px;
   }
   .big-panda {
     height: 504px;
@@ -780,6 +780,7 @@ input {
   .ellipse {
     width: 367px;
     height: 367px;
+    top: -11px;
   }
 
   .big-text {
