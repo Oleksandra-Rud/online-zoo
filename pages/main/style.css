@@ -766,9 +766,9 @@ input {
   border-radius: 25%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1028px) {
   body {
-    width: 1000px;
+    max-width: 1000px;
   }
   header .wrapper {
     padding-left: 28px;
@@ -785,5 +785,10 @@ input {
 
   .big-text {
     font-size: 85px;
+  }
+
+  .panda-with-button {
+    left: 48%;
+    top: -340px;
   }
 }
