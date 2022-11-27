@@ -770,6 +770,9 @@ input {
   body {
     width: 1000px;
   }
+  header .wrapper {
+    padding-left: 28px;
+  }
   .big-panda {
     height: 504px;
   }
