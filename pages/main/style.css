@@ -766,11 +766,15 @@ input {
   border-radius: 25%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   body {
     width: 1000px;
   }
   .big-panda {
-    height: 584px;
+    height: 504px;
+  }
+  .ellipse {
+    width: 367px;
+    height: 367px;
   }
 }
