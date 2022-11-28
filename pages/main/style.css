@@ -851,11 +851,11 @@ input {
 
   .button-round-left {
     left: 35%;
-    top: -420px;
+    top: -440px;
   }
 
   .button-round-right {
-    top: -420px;
+    top: -440px;
     right: -50%;
   }
   .pets-block::before {
@@ -918,9 +918,9 @@ input {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 130px;
-    padding-left: 88px;
-    padding-right: 88px;
+    gap: 13%;
+    padding-left: 10%;
+    padding-right: 10%;
     width: 940px;
   }
 
