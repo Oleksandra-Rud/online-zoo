@@ -851,7 +851,7 @@ input {
   }
 
   .slider-window {
-    width: 30.2%;
+    width: 32%;
   }
 
   #cardresise {
@@ -1003,5 +1003,108 @@ input {
 @media screen and (max-width: 650px) {
   #logo-img {
     display: none;
+  }
+  body {
+    max-width: 640px;
+  }
+  h1 {
+    background: url(../../assets/icons/logo_footer.png);
+    width: 47px;
+    height: 30px;
+    background-size: cover;
+  }
+  .navigation {
+    display: none;
+  }
+
+  .top-navigation-bar {
+    background: url(../../assets/icons/burger_menu.png);
+    width: 18px;
+    height: 10px;
+    background-size: cover;
+    position: absolute;
+    right: 20px;
+  }
+
+  header .wrapper {
+    max-height: 34px;
+    height: 34px;
+  }
+
+  .big-panda {
+    height: 339px;
+  }
+
+  .ellipse {
+    width: 237.6px;
+    height: 237.6px;
+    top: 10px;
+  }
+  .big-text {
+    font-size: 54px;
+  }
+  .panda-with-button {
+    left: 28%;
+    top: -184px;
+  }
+  #watch-online-button {
+    position: relative;
+    left: -240px;
+    top: -65px;
+  }
+
+  .man {
+    display: none;
+  }
+
+  .man-and-text {
+    padding-top: 60px;
+    padding-bottom: 53px;
+    margin-right: 0px;
+  }
+  .text {
+    margin-left: 24px;
+  }
+  h2 {
+    font-size: 48px;
+    margin-right: 15%;
+    margin-top: 60px;
+  }
+
+  .middle-backstage {
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .small-backstage {
+    margin-right: 60px;
+  }
+  #first-flower {
+    background-image: url(../../assets/images/flower1_640.png);
+    background-size: 115px 476px;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .slider-pets-row {
+    padding-top: 80px;
+  }
+  #del-640 {
+    display: none;
+  }
+
+  .slider-window {
+    width: 47%;
+  }
+  #cardresise {
+    width: 100%;
+  }
+
+  .button-round-left {
+    left: 35%;
+    top: -400px;
+  }
+
+  .button-round-right {
+    top: -400px;
+    right: -40%;
   }
 }
