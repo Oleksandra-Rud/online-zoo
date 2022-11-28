@@ -1191,4 +1191,80 @@ input {
     padding-right: 3%;
     gap: 42px;
   }
+
+  .pink-box::before {
+    content: "";
+    background: url(../../assets/images/arrow.png);
+    position: absolute;
+    background-size: cover;
+    top: 2245px;
+    left: 25%;
+    width: 80px;
+    height: 25px;
+  }
+  .pink-box::after {
+    content: "";
+    background: url(../../assets/images/arrow.png);
+    background-size: cover;
+    position: absolute;
+    top: 2245px;
+    right: 28%;
+    width: 80px;
+    height: 25px;
+  }
+
+  .button-donate {
+    margin-top: 40px;
+  }
+
+  .pink-box {
+    max-width: 640px;
+    height: 741px;
+  }
+  .test-name {
+    margin-top: 60px;
+  }
+  .row-test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    margin: 0 auto;
+  }
+
+  .testim {
+    box-sizing: border-box;
+    background: #f1f3f2;
+    border-radius: 20px;
+    height: 110px;
+    width: 600px;
+  }
+  .icon-port {
+    padding: 10px;
+  }
+  .slidecontainer {
+    display: none;
+  }
+
+  #leave-feedback.feedback-button {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+
+  footer {
+    margin-top: 80px;
+  }
+
+  .testimonials::after {
+    content: "";
+    background: url(../../assets/images/leav_foto640.png);
+    background-size: cover;
+    position: absolute;
+    top: 3205px;
+    right: 0px;
+    width: 117px;
+    height: 165px;
+  }
 }
