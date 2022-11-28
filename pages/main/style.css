@@ -1375,7 +1375,7 @@ input {
     width: 119px;
     height: 119px;
     top: 40px;
-    left: 24%;
+    left: 50%;
   }
   .big-text {
     font-size: 21px;
@@ -1510,7 +1510,7 @@ input {
     background: url(../../assets/images/arrow_vert.png);
     position: absolute;
     background-size: cover;
-    top: 2775px;
+    top: 2755px;
     left: 78%;
     width: 23px;
     height: 85px;
@@ -1520,7 +1520,7 @@ input {
     background: url(../../assets/images/arrow_vert.png);
     background-size: cover;
     position: absolute;
-    top: 3025px;
+    top: 3005px;
     right: 15%;
     width: 23px;
     height: 85px;
@@ -1568,7 +1568,7 @@ input {
 
   .social-links {
     position: absolute;
-    right: 55%;
+    right: 65%;
     top: 4120px;
     display: flex;
 
@@ -1578,6 +1578,8 @@ input {
     margin-left: 10px;
   }
   #donate-for-volunteers {
+    margin: 0 auto;
+    text-align: center;
     margin-top: 70px;
   }
   .last-part {
@@ -1592,5 +1594,12 @@ input {
   }
   .footer_navigation {
     margin-top: 40px;
+  }
+
+  .testimonials::after {
+    top: 3985px;
+    right: 0px;
+    width: 77px;
+    height: 135px;
   }
 }
