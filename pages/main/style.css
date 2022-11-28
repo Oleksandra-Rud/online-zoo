@@ -795,6 +795,10 @@ input {
   .pink-box::before {
     left: 35%;
   }
+
+  .panda-with-button {
+    left: 43%;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -1056,6 +1060,7 @@ input {
 
   .big-panda {
     height: 372px;
+    width: 640px;
   }
 
   .ellipse {
@@ -1067,7 +1072,7 @@ input {
     font-size: 54px;
   }
   .panda-with-button {
-    left: 28%;
+    left: 21%;
     top: -184px;
   }
   #watch-online-button {
@@ -1284,24 +1289,239 @@ input {
   }
   .social-links {
     position: absolute;
-    right: -150px;
+    right: 50px;
     top: 3340px;
   }
 
   .footer_navigation {
     padding-left: 10px;
     padding-right: 10px;
-    width: 200px;
+    width: 150px;
   }
 
   .footer_navigation ul {
-    padding-left: 20px;
+    padding-left: 10px;
     justify-content: flex-start;
   }
   .last-part {
     font-size: 15px;
-    padding-right: 10px;
-    width: 250px;
+    width: 30%;
+    margin-right: 0px;
+  }
+
+  .social-links {
+    width: 25px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  body {
+    width: 320px;
+  }
+  header {
+    max-width: 100%;
+    width: 320px;
+  }
+  #logo-img {
+    display: none;
+  }
+
+  h1 {
+    background: url(../../assets/icons/logo_footer.png);
+    width: 47px;
+    height: 30px;
+    background-size: cover;
+  }
+  .top-navigation-bar {
+    background: url(../../assets/icons/burger_menu.png);
+    width: 18px;
+    height: 10px;
+    background-size: cover;
+    max-width: 18px;
+    max-height: 10px;
+    background-position: right;
+    display: block;
+  }
+  .top-navigation-bar:hover {
+    cursor: pointer;
+  }
+
+  .navigation ul {
+    display: none;
+  }
+
+  header .wrapper {
+    max-height: 34px;
+    height: 34px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .big-panda {
+    height: 221px;
+    background-image: url(../../assets/images/GiantPanda320.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 320px;
+  }
+
+  .ellipse {
+    width: 119px;
+    height: 119px;
+    top: 40px;
+    left: 24%;
+  }
+  .big-text {
+    font-size: 21px;
+  }
+  .panda-with-button {
+    left: -5%;
+    top: -54px;
+  }
+  #watch-online-button {
+    position: relative;
+    left: -78px;
+    top: 39px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-top: 100px;
+  }
+
+  .text {
+    margin-left: 10px;
+  }
+  #first-flower {
+    background-image: none;
+  }
+  .middle-backstage {
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .pets-block {
+    margin-top: 70px;
+  }
+  .slider-pets-row {
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .slider-window {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .button-round-left {
+    display: none;
+  }
+
+  .button-round-right {
+    display: none;
+  }
+  .pets-block {
+    max-height: 1562px;
+  }
+  #choose-your-favorite {
+    margin-top: 20px;
+  }
+
+  .pets-block::before {
+    content: "";
+    background: url(../../assets/images/palm_foto320.png);
+    position: absolute;
+    background-size: cover;
+    top: 2304px;
+    left: 0px;
+    width: 58px;
+    height: 72px;
+  }
+  .pets-block::after {
+    content: "";
+    background: url(../../assets/images/strelitzia320.png);
+    background-size: cover;
+    position: absolute;
+    top: 2314px;
+    right: 0;
+    width: 68px;
+    height: 71px;
+  }
+
+  .pink-box {
+    max-width: 320px;
+    height: 1042px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  h5 {
+    font-size: 24px;
+    padding-top: 10px;
+  }
+
+  #pick-big {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    text-align: center;
+    padding-left: 5px;
     padding-right: 5px;
+    color: #333b41;
+  }
+
+  #pick-middle {
+    display: none;
+  }
+  #pick-small {
+    display: none;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .row-map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+  }
+
+  .text-map {
+    width: 168px;
+    margin-top: 5px;
+  }
+
+  .pink-box::before {
+    content: "";
+    background: url(../../assets/images/arrow_vert.png);
+    position: absolute;
+    background-size: cover;
+    top: 2775px;
+    left: 78%;
+    width: 23px;
+    height: 85px;
+  }
+  .pink-box::after {
+    content: "";
+    background: url(../../assets/images/arrow_vert.png);
+    background-size: cover;
+    position: absolute;
+    top: 3025px;
+    right: 15%;
+    width: 23px;
+    height: 85px;
   }
 }
