@@ -1374,20 +1374,20 @@ input {
   .ellipse {
     width: 119px;
     height: 119px;
-    top: 40px;
-    left: 50%;
+    top: 70px;
+    left: 3%;
   }
   .big-text {
     font-size: 21px;
   }
   .panda-with-button {
-    left: -5%;
-    top: -54px;
+    left: -59%;
+    top: -34px;
   }
   #watch-online-button {
     position: relative;
-    left: -78px;
-    top: 39px;
+    left: 95px;
+    top: 19px;
   }
 
   h2 {
