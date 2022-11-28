@@ -1489,6 +1489,7 @@ input {
 
   h3 {
     font-size: 24px;
+    margin-top: 15px;
   }
 
   .row-map {
@@ -1496,12 +1497,12 @@ input {
     flex-direction: column;
     align-items: center;
 
-    gap: 10px;
+    gap: 5px;
   }
 
   .text-map {
     width: 168px;
-    margin-top: 5px;
+    margin-top: 1px;
   }
 
   .pink-box::before {
@@ -1523,5 +1524,73 @@ input {
     right: 15%;
     width: 23px;
     height: 85px;
+  }
+  .button-donate {
+    margin-top: 27px;
+  }
+  .peek-and-feed {
+    max-height: 1082px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .testimonials {
+    margin-top: 10px;
+  }
+
+  .testim {
+    box-sizing: border-box;
+    background: #f1f3f2;
+    border-radius: 20px;
+    height: 109px;
+    width: 299px;
+  }
+  .testim-big {
+    margin-top: 0px;
+  }
+  .icon-port {
+    padding: 8px;
+  }
+  .name-icon {
+    padding-top: 8px;
+  }
+  #logo-footer-img {
+    display: none;
+  }
+  #footer-petsory {
+    background: url(../../assets/images/PetStory_logo.png);
+    width: 148px;
+    height: 18px;
+    background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .social-links {
+    position: absolute;
+    right: 55%;
+    top: 4120px;
+    display: flex;
+
+    text-align: center;
+  }
+  .social-links img {
+    margin-left: 10px;
+  }
+  #donate-for-volunteers {
+    margin-top: 70px;
+  }
+  .last-part {
+    margin-top: 0px;
+    width: 250px;
+    position: absolute;
+    top: 4250px;
+    left: 10%;
+  }
+  footer {
+    height: 354px;
+  }
+  .footer_navigation {
+    margin-top: 40px;
   }
 }
