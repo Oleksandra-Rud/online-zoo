@@ -787,6 +787,13 @@ input {
   #first-flower {
     background-image: none;
   }
+  .pink-box::after {
+    right: 32%;
+  }
+
+  .pink-box::before {
+    left: 35%;
+  }
 }
 
 @media screen and (max-width: 1028px) {
@@ -924,7 +931,7 @@ input {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 13%;
+
     padding-left: 8%;
     padding-right: 8%;
   }
@@ -937,7 +944,7 @@ input {
 
   .pink-box::after {
     top: 2770px;
-    right: 33%;
+    right: 30%;
   }
 
   .pink-box::before {
@@ -968,5 +975,33 @@ input {
   }
   .feedback-button {
     margin-left: 30px;
+  }
+  #footer-petsory {
+    margin-left: 30px;
+  }
+  form {
+    margin-right: 63px;
+  }
+
+  .social-links {
+    margin-left: 30px;
+    width: 200px;
+  }
+  .footer_navigation {
+    padding-left: 130px;
+    padding-right: 50px;
+  }
+
+  .testimonials::after {
+    content: "";
+    background: url(../../assets/images/leav_foto.png);
+
+    top: 3735px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #logo-img {
+    display: none;
   }
 }
