@@ -572,13 +572,14 @@ h3 {
   color: #bdbdbd;
   padding-bottom: 10px;
 }
+
 .testimonials::after {
   content: "";
   background: url(../../assets/images/leav_foto.png);
   background-size: cover;
   position: absolute;
   top: 4243px;
-  right: 0;
+  right: 0px;
   width: 247px;
   height: 295px;
 }
@@ -796,8 +797,9 @@ input {
   }
 }
 
-@media screen and (max-width: 1028px) {
+@media screen and (max-width: 1000px) {
   body {
+    width: 1000px;
     max-width: 1000px;
   }
   header .wrapper {
@@ -851,7 +853,7 @@ input {
   }
 
   .slider-window {
-    width: 40%;
+    width: 31%;
   }
 
   #cardresise {
@@ -876,7 +878,7 @@ input {
     background: url(../../assets/images/palm_foto1000.png);
     position: absolute;
     background-size: cover;
-    top: 2070px;
+    top: 2126px;
     left: 0px;
     width: 192px;
     height: 202px;
@@ -886,7 +888,7 @@ input {
     background: url(../../assets/images/strelitzia1000.png);
     background-size: cover;
     position: absolute;
-    top: 2092px;
+    top: 2148px;
     right: 0;
     width: 240px;
     height: 180px;
@@ -894,6 +896,7 @@ input {
 
   .peek-and-feed {
     padding: 30px 30px 50px 30px;
+    margin-top: 306px;
   }
 
   h5 {
@@ -995,12 +998,15 @@ input {
   .testimonials::after {
     content: "";
     background: url(../../assets/images/leav_foto.png);
-
-    top: 3735px;
+    right: 0px;
+    top: 3791px;
+  }
+  #choose-your-favorite {
+    margin-top: 46px;
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 640px) {
   #logo-img {
     display: none;
   }
