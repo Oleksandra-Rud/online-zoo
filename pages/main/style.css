@@ -1123,7 +1123,7 @@ input {
     background: url(../../assets/images/palm_foto640.png);
     position: absolute;
     background-size: cover;
-    top: 1900px;
+    top: 1702px;
     left: 0px;
     width: 134px;
     height: 202px;
@@ -1133,7 +1133,7 @@ input {
     background: url(../../assets/images/strelitzia640.png);
     background-size: cover;
     position: absolute;
-    top: 1902px;
+    top: 1772px;
     right: 0;
     width: 175px;
     height: 131px;
@@ -1144,10 +1144,51 @@ input {
   }
 
   .peek-and-feed {
-    margin-top: 150px;
+    margin-top: 90px;
   }
 
   #choose-your-favorite {
     margin-top: 0px;
+  }
+  .peek-and-feed {
+    padding: 20px 0px 20px 0px;
+  }
+
+  h5 {
+    font-size: 42px;
+    padding-top: 10px;
+  }
+
+  element.style {
+  }
+  @media screen and (max-width: 1000px) #pick-big {
+    padding-left: 49px;
+    padding-right: 47px;
+    margin-top: 20px;
+  }
+  #pick-big {
+    font-size: 22px;
+  }
+  #pick-middle {
+    font-weight: 600;
+    padding-right: 20px;
+  }
+  #pick-small {
+    padding-right: 20px;
+    font-size: 15px;
+  }
+  h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .row-map {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    gap: 42px;
   }
 }
