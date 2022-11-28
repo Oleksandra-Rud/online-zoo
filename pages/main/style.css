@@ -1037,13 +1037,13 @@ input {
   }
 
   .big-panda {
-    height: 339px;
+    height: 372px;
   }
 
   .ellipse {
     width: 237.6px;
     height: 237.6px;
-    top: 10px;
+    top: 40px;
   }
   .big-text {
     font-size: 54px;
@@ -1055,7 +1055,7 @@ input {
   #watch-online-button {
     position: relative;
     left: -240px;
-    top: -65px;
+    top: -45px;
   }
 
   .man {
