@@ -426,11 +426,12 @@ h3 {
 #feed-a-friend {
   margin: 0 auto;
   display: block;
-  position: relative;
-  top: 200px;
-  left: -660px;
+
   text-decoration: none;
   text-align: center;
+}
+.button-donate {
+  margin-top: 50px;
 }
 .row-map {
   display: flex;
@@ -590,6 +591,11 @@ h3 {
 }
 .scroller-img {
   margin: 0 auto;
+}
+
+#leave-feedback {
+  padding-bottom: 20px;
+  height: 54px;
 }
 footer {
   font-family: "Roboto", sans-serif;
@@ -919,9 +925,8 @@ input {
     align-items: center;
     justify-content: space-between;
     gap: 13%;
-    padding-left: 10%;
-    padding-right: 10%;
-    width: 940px;
+    padding-left: 8%;
+    padding-right: 8%;
   }
 
   .pink-box {
@@ -932,11 +937,36 @@ input {
 
   .pink-box::after {
     top: 2770px;
-    right: 30%;
+    right: 33%;
   }
 
   .pink-box::before {
     top: 2770px;
-    left: 32%;
+    left: 30%;
+  }
+
+  #feed-a-friend {
+    left: 33%;
+  }
+
+  #icon-image {
+    flex: 1;
+  }
+
+  .test-name {
+    margin-top: 100px;
+  }
+
+  #hide-test {
+    display: none;
+  }
+
+  .row-test {
+    gap: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .feedback-button {
+    margin-left: 30px;
   }
 }
