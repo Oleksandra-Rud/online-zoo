@@ -1007,39 +1007,51 @@ input {
 }
 
 @media screen and (max-width: 640px) {
+  body {
+    width: 640px;
+  }
+  header {
+    max-width: 100%;
+    width: 640px;
+
+    position: fixed;
+    top: 0;
+  }
   #logo-img {
     display: none;
   }
-  body {
-    max-width: 640px;
-  }
+
   h1 {
     background: url(../../assets/icons/logo_footer.png);
     width: 47px;
     height: 30px;
     background-size: cover;
   }
-  .navigation {
-    display: none;
-  }
-
   .top-navigation-bar {
     background: url(../../assets/icons/burger_menu.png);
-    background-repeat: no-repeat;
     width: 18px;
     height: 10px;
     background-size: cover;
     max-width: 18px;
     max-height: 10px;
     background-position: right;
+    display: block;
   }
-  header {
-    width: 100%;
-    position: fixed;
+  .top-navigation-bar:hover {
+    cursor: pointer;
   }
+
+  .navigation ul {
+    display: none;
+  }
+
   header .wrapper {
     max-height: 34px;
     height: 34px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .big-panda {
@@ -1159,13 +1171,6 @@ input {
     padding-top: 10px;
   }
 
-  element.style {
-  }
-  @media screen and (max-width: 1000px) #pick-big {
-    padding-left: 49px;
-    padding-right: 47px;
-    margin-top: 20px;
-  }
   #pick-big {
     font-size: 22px;
   }
@@ -1266,5 +1271,37 @@ input {
     right: 0px;
     width: 117px;
     height: 165px;
+  }
+  form {
+    display: none;
+  }
+  footer .wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .social-name {
+    display: none;
+  }
+  .social-links {
+    position: absolute;
+    right: -150px;
+    top: 3340px;
+  }
+
+  .footer_navigation {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+  }
+
+  .footer_navigation ul {
+    padding-left: 20px;
+    justify-content: flex-start;
+  }
+  .last-part {
+    font-size: 15px;
+    padding-right: 10px;
+    width: 250px;
+    padding-right: 5px;
   }
 }
