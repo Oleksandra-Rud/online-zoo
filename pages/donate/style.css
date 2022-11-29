@@ -890,4 +890,56 @@ input {
     padding-left: 0px;
     padding-right: 0px;
   }
+
+  .big-panda {
+    background-image: url(../../assets/images/panda_bg_320.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 221px;
+  }
+
+  .reopened-zoo {
+    font-size: 24px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .small-text {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .information {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+
+  .pink-box {
+    max-width: 591px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  h2 {
+    font-size: 24px;
+    padding-top: 0px;
+  }
+
+  #pick-big {
+    font-size: 16px;
+  }
+
+  #panda-widget {
+    width: 160px;
+    height: 138px;
+  }
+
+  .big-4 {
+    font-size: 32px;
+  }
+  .small-text-under {
+    font-size: 9px;
+  }
 }
