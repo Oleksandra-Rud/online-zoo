@@ -649,7 +649,7 @@ input {
   .pink-box::before {
     content: url(../../assets/icons/Rectangle_12_1000.png);
     position: relative;
-    left: 11%;
+    left: 8.5%;
     top: 520px;
   }
   #del5000 {
@@ -663,5 +663,30 @@ input {
     max-width: 940px;
     margin-left: 30px;
     margin-right: 30px;
+  }
+
+  .feedback-button {
+    margin-left: 30px;
+  }
+  #footer-petsory {
+    margin-left: 30px;
+  }
+  form.subscribe-to-news {
+    margin-right: 63px;
+  }
+
+  .social-links {
+    margin-left: 30px;
+    width: 120px;
+  }
+  .footer_navigation {
+    padding-left: 110px;
+    padding-right: 30px;
+  }
+  .last-part {
+    margin-right: 20px;
+  }
+  footer {
+    max-width: 1000px;
   }
 }
