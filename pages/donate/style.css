@@ -596,3 +596,13 @@ input {
 .feedback-button:active {
   background: #4b9200;
 }
+@media screen and (max-width: 1190px) {
+  body {
+    width: 1000px;
+    max-width: 1000px;
+  }
+  header .wrapper {
+    padding-left: 28px;
+    padding-right: 18px;
+  }
+}

@@ -801,11 +801,12 @@ input {
   }
 }
 
-@media screen and (max-width: 1090px) {
+@media screen and (max-width: 1190px) {
   body {
     width: 1000px;
     max-width: 1000px;
   }
+
   header .wrapper {
     padding-left: 28px;
     padding-right: 18px;
@@ -870,11 +871,11 @@ input {
 
   .button-round-left {
     left: 35%;
-    top: -440px;
+    top: -450px;
   }
 
   .button-round-right {
-    top: -440px;
+    top: -450px;
     right: -50%;
   }
   .pets-block::before {
@@ -950,12 +951,12 @@ input {
   }
 
   .pink-box::after {
-    top: 2770px;
+    top: 2790px;
     right: 30%;
   }
 
   .pink-box::before {
-    top: 2770px;
+    top: 2790px;
     left: 30%;
   }
 
@@ -992,11 +993,11 @@ input {
 
   .social-links {
     margin-left: 30px;
-    width: 200px;
+    width: 120px;
   }
   .footer_navigation {
-    padding-left: 130px;
-    padding-right: 50px;
+    padding-left: 110px;
+    padding-right: 30px;
   }
 
   .testimonials::after {
@@ -1007,6 +1008,12 @@ input {
   }
   #choose-your-favorite {
     margin-top: 46px;
+  }
+  .last-part {
+    margin-right: 20px;
+  }
+  footer {
+    max-width: 1000px;
   }
 }
 
@@ -1586,7 +1593,7 @@ input {
     margin-top: 0px;
     width: 250px;
     position: absolute;
-    top: 4250px;
+    top: 4220px;
     left: 10%;
   }
   footer {
