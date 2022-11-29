@@ -1602,4 +1602,10 @@ input {
     width: 77px;
     height: 135px;
   }
+  h4 {
+    font-size: 12px;
+  }
+  #text-cards {
+    font-size: 11px;
+  }
 }
