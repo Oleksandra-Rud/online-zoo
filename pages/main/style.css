@@ -801,7 +801,7 @@ input {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1090px) {
   body {
     width: 1000px;
     max-width: 1000px;
@@ -1010,7 +1010,7 @@ input {
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 770px) {
   body {
     width: 640px;
   }
@@ -1314,7 +1314,7 @@ input {
   }
 }
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 450px) {
   body {
     width: 320px;
   }
@@ -1440,7 +1440,7 @@ input {
     background: url(../../assets/images/palm_foto320.png);
     position: absolute;
     background-size: cover;
-    top: 2304px;
+    top: 2284px;
     left: 0px;
     width: 58px;
     height: 72px;
@@ -1450,7 +1450,7 @@ input {
     background: url(../../assets/images/strelitzia320.png);
     background-size: cover;
     position: absolute;
-    top: 2314px;
+    top: 2294px;
     right: 0;
     width: 68px;
     height: 71px;
@@ -1510,7 +1510,7 @@ input {
     background: url(../../assets/images/arrow_vert.png);
     position: absolute;
     background-size: cover;
-    top: 2755px;
+    top: 2725px;
     left: 78%;
     width: 23px;
     height: 85px;
@@ -1520,7 +1520,7 @@ input {
     background: url(../../assets/images/arrow_vert.png);
     background-size: cover;
     position: absolute;
-    top: 3005px;
+    top: 2985px;
     right: 15%;
     width: 23px;
     height: 85px;
@@ -1535,7 +1535,7 @@ input {
   }
 
   .testimonials {
-    margin-top: 10px;
+    margin-top: 0px;
   }
 
   .testim {
@@ -1569,7 +1569,7 @@ input {
   .social-links {
     position: absolute;
     right: 65%;
-    top: 4120px;
+    top: 4100px;
     display: flex;
 
     text-align: center;
@@ -1597,7 +1597,7 @@ input {
   }
 
   .testimonials::after {
-    top: 3985px;
+    top: 3965px;
     right: 0px;
     width: 77px;
     height: 135px;
