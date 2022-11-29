@@ -841,7 +841,11 @@ input {
   .social-links {
     width: 25px;
   }
+  .how-often {
+    padding-top: 10px;
+  }
 }
+
 @media screen and (max-width: 450px) {
   body {
     width: 320px;
