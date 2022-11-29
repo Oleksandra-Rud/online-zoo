@@ -605,4 +605,50 @@ input {
     padding-left: 28px;
     padding-right: 18px;
   }
+  h3 {
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 192px;
+  }
+  .small-text {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .information {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  h2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }
+  .peek-and-feed {
+    max-height: 1333px;
+  }
+  #pick-big {
+    margin-top: 0px;
+    padding-left: 44px;
+  }
+  #amount-p {
+    padding-left: 65px;
+  }
+
+  .black-amount-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #404950;
+    margin-left: 65px;
+    margin-right: 65px;
+    max-height: 27px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .pink-box::before {
+    content: url(../../assets/icons/Rectangle_12.png);
+    position: relative;
+    left: 7%;
+    top: 520px;
+  }
 }
