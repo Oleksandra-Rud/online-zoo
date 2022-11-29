@@ -835,3 +835,48 @@ input {
     width: 25px;
   }
 }
+@media screen and (max-width: 450px) {
+  body {
+    width: 320px;
+  }
+  header {
+    max-width: 100%;
+    width: 320px;
+  }
+  #logo-img {
+    display: none;
+  }
+
+  h1 {
+    background: url(../../assets/icons/logo_footer.png);
+    width: 47px;
+    height: 30px;
+    background-size: cover;
+  }
+  .top-navigation-bar {
+    background: url(../../assets/icons/burger_menu.png);
+    width: 18px;
+    height: 10px;
+    background-size: cover;
+    max-width: 18px;
+    max-height: 10px;
+    background-position: right;
+    display: block;
+  }
+  .top-navigation-bar:hover {
+    cursor: pointer;
+  }
+
+  .navigation ul {
+    display: none;
+  }
+
+  header .wrapper {
+    max-height: 34px;
+    height: 34px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
