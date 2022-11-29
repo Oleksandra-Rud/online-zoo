@@ -959,4 +959,92 @@ input {
     padding-top: 6px;
     padding-right: 25px;
   }
+
+  #amount-p {
+    margin-bottom: 6px;
+  }
+
+  .an-amount {
+    padding-top: 49px;
+  }
+
+  #another-amount {
+    height: 42px;
+    width: 180px;
+  }
+
+  .input-another-amount:after {
+    content: "";
+    width: 12px;
+    height: 15px;
+    display: inline-block;
+    background: url(../../assets/icons/dollar.png) 50% no-repeat;
+    background-size: contain;
+    opacity: 0.6;
+    position: relative;
+    left: 67%;
+    bottom: 30px;
+  }
+
+  .share {
+    font-size: 15px;
+    padding-bottom: 19px;
+  }
+  .peek-and-feed {
+    padding-bottom: 10px;
+  }
+  .pink-box::before {
+    content: url(../../assets/icons/Rectangle_12_320.png);
+    position: relative;
+    left: 7%;
+    top: 285px;
+  }
+
+  .icon-port {
+    padding: 8px;
+  }
+  .name-icon {
+    padding-top: 8px;
+  }
+  #logo-footer-img {
+    display: none;
+  }
+  #footer-petsory {
+    background: url(../../assets/images/PetStory_logo.png);
+    width: 148px;
+    height: 22px;
+    background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .social-links {
+    position: absolute;
+    right: 65%;
+    top: 1480px;
+    display: flex;
+
+    text-align: center;
+  }
+  .social-links img {
+    margin-left: 10px;
+  }
+  #donate-for-volunteers {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 70px;
+  }
+  .last-part {
+    margin-top: 0px;
+    width: 250px;
+    position: absolute;
+    top: 1600px;
+    left: 10%;
+  }
+  footer {
+    height: 354px;
+  }
+  .footer_navigation {
+    margin-top: 40px;
+  }
 }
