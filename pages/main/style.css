@@ -1112,7 +1112,7 @@ input {
   }
   .slider-pets-row {
     padding-top: 37px;
-    padding-bottom: 37px;
+    padding-bottom: 17px;
   }
   #del-640 {
     display: none;
@@ -1126,13 +1126,13 @@ input {
   }
 
   .button-round-left {
-    left: 35%;
-    top: -460px;
+    left: 37%;
+    top: -432px;
   }
 
   .button-round-right {
-    top: -460px;
-    right: -40%;
+    top: -432px;
+    right: -41%;
   }
 
   .pets-block::before {
@@ -1140,7 +1140,7 @@ input {
     background: url(../../assets/images/palm_foto640.png);
     position: absolute;
     background-size: cover;
-    top: 1702px;
+    top: 1642px;
     left: 0px;
     width: 134px;
     height: 202px;
@@ -1150,7 +1150,7 @@ input {
     background: url(../../assets/images/strelitzia640.png);
     background-size: cover;
     position: absolute;
-    top: 1772px;
+    top: 1725px;
     right: 0;
     width: 175px;
     height: 131px;
@@ -1165,7 +1165,7 @@ input {
   }
 
   #choose-your-favorite {
-    margin-top: 0px;
+    margin-top: -20px;
   }
   .peek-and-feed {
     padding: 20px 0px 20px 0px;
@@ -1207,7 +1207,7 @@ input {
     background: url(../../assets/images/arrow.png);
     position: absolute;
     background-size: cover;
-    top: 2245px;
+    top: 2185px;
     left: 25%;
     width: 80px;
     height: 25px;
@@ -1217,7 +1217,7 @@ input {
     background: url(../../assets/images/arrow.png);
     background-size: cover;
     position: absolute;
-    top: 2245px;
+    top: 2185px;
     right: 28%;
     width: 80px;
     height: 25px;
@@ -1272,7 +1272,7 @@ input {
     background: url(../../assets/images/leav_foto640.png);
     background-size: cover;
     position: absolute;
-    top: 3205px;
+    top: 3145px;
     right: 0px;
     width: 117px;
     height: 165px;
@@ -1290,7 +1290,7 @@ input {
   .social-links {
     position: absolute;
     right: 50px;
-    top: 3340px;
+    top: 3290px;
   }
 
   .footer_navigation {
