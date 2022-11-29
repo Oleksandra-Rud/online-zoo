@@ -941,5 +941,22 @@ input {
   }
   .small-text-under {
     font-size: 9px;
+    width: 105px;
+    padding-left: 10px;
+  }
+  .amaunt-for-panda {
+    margin-top: 10px;
+    margin-bottom: 4px;
+  }
+
+  .small-text-under:after {
+    content: url(../../assets/icons/x_icon.png);
+    position: relative;
+    left: 15px;
+    top: -25px;
+  }
+  .left-text {
+    padding-top: 6px;
+    padding-right: 25px;
   }
 }
