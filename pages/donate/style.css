@@ -747,6 +747,7 @@ input {
   }
   .peek-and-feed {
     padding-top: 30px;
+    padding-bottom: 30px;
   }
   .small-text {
     margin-left: 20px;
@@ -790,9 +791,47 @@ input {
   }
 
   .pink-box::before {
-    content: url(../../assets/icons/Rectangle_12_1000.png);
+    content: url(../../assets/icons/Rectangle_12_640.png);
     position: relative;
-    left: 8.5%;
+    left: 7%;
     top: 535px;
+  }
+  .share {
+    padding-bottom: 30px;
+  }
+  form.subscribe-to-news {
+    display: none;
+  }
+  footer .wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .social-name {
+    display: none;
+  }
+  .social-links {
+    position: absolute;
+    right: 50px;
+    top: 1720px;
+  }
+
+  .footer_navigation {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 150px;
+  }
+
+  .footer_navigation ul {
+    padding-left: 10px;
+    justify-content: flex-start;
+  }
+  .last-part {
+    font-size: 15px;
+    width: 30%;
+    margin-right: 0px;
+  }
+
+  .social-links {
+    width: 25px;
   }
 }
